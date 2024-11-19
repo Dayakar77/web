@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+
+body{
+    font-family: 'Inter', sans-serif;
+    margin: 0 auto;
+    width: 1180px;
+    margin-bottom: 160px;
+}
+p{
+    font-size: 15px;
+}
+.menu_open_btn{
+    display: none;
+}
+.menu_close_btn{
+    display: none;
+}
+.menu ul{
+    float: right;
+    list-style-type: none;
+    padding: 0 110px 0 0;
+}
+.menu ul li{
+    display: inline-block;
+    padding: 0 20px;
+}
+.menu ul li:last-of-type{
+    padding-right: 0;
+}
+.menu ul a{
+    text-decoration: none;
+    color: hsl(236, 13%, 42%);
+    
+}
+.mobile_web{
+    content: url("images/image-web-3-desktop.jpg");
+    width: 100%;
+}
+header,.menu ul{
+    padding: 50px 0 30px 0;
+}
+.new{
+    margin: 0;
+    padding: 30px;
+    color: white;
+    overflow: auto;
+    background-color: hsl(240, 100%, 5%);
+    margin-bottom: 100px;
+}
+.leftcontainer{
+    float: left;
+    overflow: auto;
+    width: 66%;
+    margin: 0 30px 0 0;
+}
+.logo{
+    width: 70px;
+}
+.newtext{
+    font-weight: 700;
+    font-size: 2.6rem;
+    color: hsl(35, 77%, 62%);
+}
+.textcontainer{
+    height: 155px;
+    /* border: solid black; */
+}
+.textcontainer p{
+    color: hsl(236, 13%, 42%);
+    line-height: 25px;
+}
+.heading{
+    padding-right: 62px;
+    font-size: 3.6rem;
+    font-weight: 900;
+    width: 350px;
+    float: left;
+}
+.readmorebtn{
+    position: relative;
+    bottom: -36px;
+    right: 9px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    border: none;
+    background-color: hsl(5, 85%, 63%);
+    color: white;
+    padding: 18px 40px;
+}
+.readmorebtn:hover{
+    background-color: hsl(240, 100%, 5%);
+    cursor: pointer;
+}
+.newheading{
+    font-weight: 600;
+    font-size: 1.3rem;
+    margin-top: 30px;
+}
+.newheading:hover{
+    color:hsl(35, 77%, 62%) ;
+    cursor: pointer;
+}
+.new p{
+    margin-top: 13px;
+    line-height: 30px;
+    color: hsl(233, 8%, 79%);
+    border-bottom: solid hsl(236, 13%, 42%) 1px;
+    padding-bottom: 25px;
+}
+.new p:last-of-type{
+    border: none;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.bottom{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.bottom img{
+    margin-right: 25px;
+    float: left;
+    width: 105px;
+}
+.numb{
+    font-size: 2rem;
+    font-weight: 700;
+    color: hsl(233, 8%, 79%);
+}
+.subhead{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.bottom .content{
+    width: 355px;
+    margin-right: 38px;
+}

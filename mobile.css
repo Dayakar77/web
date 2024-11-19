@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+
+html,body{
+    margin: 0px;
+    overflow-x: hidden;
+}
+p{
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+body{
+    position: relative;
+    font-family: 'Inter', sans-serif;
+    max-width: 100vw;
+    min-height: 100vh;
+    transition: background-color 1s;
+}
+.maincontainer{
+    padding: 17px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header{
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+header .logo{
+    
+    width: 50px;
+    align-self: flex-start;
+}
+.menu_open{
+    width: 44px;
+    height:18px ;
+    margin: 2.5px 0 0 0 ;
+    display: block;
+}
+.menu_close{
+    padding: 5px;
+    display: block;
+}
+.menu{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 60%;
+    height: 100vh;
+    background-color: white;
+    padding: 10px;
+    transition: transform 0.5s;
+    transform: translateX(400px);
+    
+}
+.menu_open_btn, .menu_close_btn{
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+.menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 70px 10px;
+}
+.menu li a{
+    font-size:large;
+    display: block;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    padding: 10px 0;
+}
+.menu ul li a:hover{
+    color: hsl(5, 85%, 63%);
+}
+.mobile_web{
+    width: 100%;
+}
+.textcontainer{
+    line-height: 1.5rem;
+    font-size: 15px;
+    
+}
+.textcontainer p{
+    margin-bottom: 30px;
+    color: hsl(236, 13%, 42%);
+    font-size: 15px;
+}
+.heading{
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height:1 ;
+    margin-top: 20px;
+}
+.readmorebtn{
+    background-color: hsl(5, 85%, 63%);
+    padding: 16px 33px;
+    color: white;
+    border: none;
+    font-weight: 400;
+    letter-spacing: .25rem;
+    margin-bottom: 4rem;
+    font-size: 15px;
+}
+.new{
+    box-sizing: border-box;
+    background-color: hsl(240, 100%, 5%);
+    width: 100%;
+    color: white;
+    padding: 20px;
+    margin-bottom: 70px;
+ 
+}
+.newtext{
+    color: hsl(35, 77%, 62%);
+    font-size: 2.2rem;
+    font-weight: 700;   
+}
+.newheading{
+    margin-top: 31px;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+.new p{
+    color: hsl(236, 13%, 42%);
+    border-bottom: solid hsl(236, 13%, 42%) 1px;
+    padding-bottom: 26px;
+}
+.new p:last-of-type{
+    border: none;
+    padding: 0;
+}
+.bottom{
+    overflow: auto;
+}
+.content{
+    margin-bottom: 38px;
+    overflow: auto;
+}
+.bottom img{
+    padding-right: 21px;
+    width: 31%;
+    float: left;
+}
+.subhead{
+    font-size: 1.05rem;
+    font-weight: 900;
+}
+.numb{
+    font-size: 2rem;
+    color: lighthsl(236, 13%, 42%);
+    font-weight: 700;
+}
+.contenttext{
+    margin: 0px;
+}
